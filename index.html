@@ -39,15 +39,17 @@
         </svg>
       </div>
     </section>
-    <section>
-
-      <p>
-        You’ve used 815 GB of your storage
-      </p>
-
-      0 GB
-      1000 GB
-      <p> 185 GB Left </p>
+    <section class="container__storage">
+      <p class="container__storage-paragraph"> You’ve used <strong class="container__storage-paragraph--strong">815
+          GB</strong> of your storage </p>
+      <div class="container__storage-bar">
+        <div class="container__storage-bar-progress"></div>
+      </div>
+      <span class="container__storage-min"> 0 GB </span>
+      <span class="container__storage-max"> 1000 GB </span>
+      <div class="container__storage-card">
+        <span class="container__storage-card-paragraph"> 185 GB Left </span>
+      </div>
     </section>
   </main>
 </body>
